@@ -17,8 +17,8 @@ apply plugin: 'io.spring.dependency-management'
 group = 'org.acrho'
 version = '2.0.0-SNAPSHOT'
 compileJava {
-	sourceCompatibility = 11
-	targetCompatibility = 11
+	sourceCompatibility = 1.8
+	targetCompatibility = 1.8
 }
 
 repositories {
