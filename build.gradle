@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		springBootVersion = '2.0.6.RELEASE'
+		springBootVersion = '2.1.0.RELEASE'
 	}
 	repositories {
 		mavenCentral()
@@ -17,7 +17,7 @@ apply plugin: 'io.spring.dependency-management'
 
 group = 'org.acrho'
 version = '2.0.0-SNAPSHOT'
-sourceCompatibility = 1.8
+sourceCompatibility = 11
 
 repositories {
 	mavenCentral()
@@ -30,10 +30,10 @@ dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-data-rest')
 	implementation('org.springframework.boot:spring-boot-starter-actuator')
 	implementation('de.codecentric:spring-boot-admin-starter-client:2.0.1')
-	compile('io.springfox:springfox-swagger2:2.9.2')
-	compile('io.springfox:springfox-swagger-ui:2.9.2')
-	compile('org.acrho:acrho-client:2.0.0-SNAPSHOT')
-	compile('org.projectlombok:lombok:1.18.2')
+	implementation('io.springfox:springfox-swagger2:2.9.2')
+	implementation('io.springfox:springfox-swagger-ui:2.9.2')
+	implementation('org.acrho:acrho-client:2.0.0-SNAPSHOT')
+	implementation('org.projectlombok:lombok:1.18.2')
 	annotationProcessor 'org.projectlombok:lombok:1.18.2'
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
