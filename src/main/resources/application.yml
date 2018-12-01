@@ -1,24 +1,6 @@
 spring:
   application:
     name: Acrho Server
-  boot:
-    admin:
-      client:
-        url: http://localhost:8081/
-  data:
-    mongodb:
-      host: 127.0.0.1
-      port: 27017
-      database: acrho
-  jackson:
-    serialization:
-      INDENT_OUTPUT: true
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-  security:
-    enabled: false
+
 
