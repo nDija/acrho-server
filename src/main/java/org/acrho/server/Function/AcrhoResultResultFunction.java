@@ -1,6 +1,6 @@
 package org.acrho.server.Function;
 
-import org.acrho.client.model.AcrhoResult;
+import io.hullaert.acrho.client.model.AcrhoResult;
 import org.acrho.server.model.Result;
 import org.acrho.server.model.ResultId;
 

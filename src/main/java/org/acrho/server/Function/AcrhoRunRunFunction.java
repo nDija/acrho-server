@@ -1,6 +1,6 @@
 package org.acrho.server.Function;
 
-import org.acrho.client.model.AcrhoRun;
+import io.hullaert.acrho.client.model.AcrhoRun;
 import org.acrho.server.model.Run;
 
 import java.util.function.Function;
