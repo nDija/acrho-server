@@ -7,7 +7,6 @@ import lombok.experimental.Wither;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.data.annotation.Id;
 
-import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Data
